@@ -1,0 +1,316 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'poppinsregular', Arial, sans-serif;
+    
+}
+
+html, body{
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.gorent{    
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(108.34deg, #17C2ED 4.55%, #1C7DD7 95.45%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFFFFF;
+
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #FBFDFF;
+    border-radius: 90px;
+    
+
+}
+
+header{
+    min-height: 951px;
+    background: url(../img/Rectangle\ 3.png) no-repeat center ;
+    background-size: 100% auto;
+    
+    
+}
+
+.header menu{ 
+    min-height: 90px;
+    
+}
+
+.header-menu{
+    width: 100%;     
+    margin-top: 40px;
+}
+
+main{
+    flex-grow: 1;
+
+}
+
+.container{
+    position: relative;
+
+}
+
+.section__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+.mainmenu__list{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.mainmenu__item{
+    margin-right: 80px;
+}
+
+.menu__link{
+        
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.authorization{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.btn{
+    color: #FFF;
+}
+
+.btnsign{    
+    margin-right: 13px;
+}
+
+.btnlogin{
+    
+    padding: 13px 43px;
+    border-radius: 100px;
+    background: linear-gradient(108deg, #17C2ED 4.55%, #1C7DD7 95.45%), linear-gradient(0deg, #BFBFBF 0%, #BFBFBF 100%), #FFF;
+}
+
+
+/* 
+
+
+
+
+
+} */
+
+
+
+/* @media(max-width:1000px){
+    
+    body{
+        width: 100%;
+    }
+} */
+
+/* ------------section featured----------- */
+
+
+/*********second header*****/
+
+/* .banner{
+    margin-top: 90px;
+}
+
+.banner .container{    
+    display: flex;
+    flex-direction: row;
+} */
+
+
+.banner .container{    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page1{
+    padding-top: 80px;
+    min-height: 800px;    
+    margin-left: 100px;
+
+}
+
+
+
+
+
+.Indonesia{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.5;
+
+    
+}
+
+.maintext{
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 600px;
+    line-height: 82.5px;
+
+}
+
+.explore{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0.5;
+    line-height: 37.5px;
+    width: 550px;
+    margin-bottom: 60px;
+}
+
+.learnmore{
+    color: #F6F6F6;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 27px 60px;
+    
+
+    width: 263px;
+    height: 91px;
+    flex-shrink: 0;
+    border-radius: 27px;
+    background: linear-gradient(108deg, #17C2ED 4.55%, #1C7DD7 95.45%);
+}
+
+
+.firstimg{
+    width: 592px;
+    height: 761px;
+    flex-shrink: 0;
+    margin-top: 80px;
+}
+
+
+.featured .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.call__featured{
+    text-align: center;
+    color: #17C1ED;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 109px;
+}
+
+.besthotel__featured{
+    text-align: center;
+    color: #101729;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 128px;
+}
+
+/******list-hotel***/
+
+.hotel-list{
+    height: 1450px;
+    margin-left: 100px;
+}
+
+.hotel-list .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.firsthotelinfo{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ghazi{
+    margin-right: 450px;
+}
+
+.hotel-list__h2{
+    color: #101729;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 39px;
+    margin-bottom: 15px;
+}
+
+.hotel-list__text{
+    width: 456px;
+    color: #101729;
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0.5;
+    
+    margin-bottom: 140px;
+}
+
+.hotel-list__a{
+    color: #FEFEFE;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 27px;
+    background: linear-gradient(108deg, #17C2ED 4.55%, #1C7DD7 95.45%);
+    padding: 25px 55px;
+}
+
+.ghaziimg{
+    width: 362px;
+    height: 424px;
+    flex-shrink: 0;
+    margin-right: 70px;
+}
+
+/*******FootER******/
+
+footer{
+    
+    margin-left: 100px;
+}
